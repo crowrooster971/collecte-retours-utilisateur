@@ -1,0 +1,26 @@
+{
+  "name": "collecte-retours-utilisateur",
+  "version": "1.0.0",
+  "description": "Application pour la collecte et l'analyse des retours utilisateur",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo 'No tests specified' && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/votre-utilisateur/collecte-retours-utilisateur"
+  },
+  "keywords": ["retours", "utilisateur", "collecte", "analyse"],
+  "author": "Votre Nom",
+  "license": "MIT"
+}
